@@ -7,7 +7,7 @@ const fibonacci = function(FibIndex) {
     for (let i = 2; i <= FibIndex; i++){
         FibNums[i] = FibNums[i-2] + FibNums[i-1];
     }
-    return FibNums[index];
+    return FibNums[FibIndex];
 };
 
 // Do not edit below this line
